@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mi primera página">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="primero.js"></script>
+    <title>Mi primera página</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+<body>
+
+    
+    <header>
+        <img src="img/header.jpg" alt="">
+    </header>
+    
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="Contacto.html">Contacto</a>
+    </nav>
+
+    <main class="caja">
+            <p>Parrafo
+                <hr>
+            </p>
+            <pre>
+               este texto
+                 es   preformateado en el editor asi como este
+            </pre>
+    
+            <blockquote>
+                    blockquote destaca un contenido
+            </blockquote>
+        </main>
+    
+<article>
+    <h1>MIS MASCOTAS</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eveniet error vitae quisquam velit corporis dolore quo. Nesciunt consequuntur rerum doloremque ipsum velit perferendis ratione, placeat neque dolorem vel non!</P>
+            <div class="animal"></div>
+                <p class="panimal">Que animal te gusta?</p>
+                <button onclick="document.getElementById('imageAnimal').src='img/gato.jpg'">Gato</button>
+                <img class="imagenMascota"  id="imageAnimal" src="img/perro.jpg" alt="">
+                <button onclick="document.getElementById('imageAnimal').src='img/perro.jpg'">Perro</button>
+            </div>
+        
+    <p>mis mascotas</p>
+    <ol>
+        <li>Toni
+            <ul>
+                <li>amarillo</li>
+                <li>pequeño</li>
+                <li>Pica el ojo</li>
+            </ul>
+        <li>Tobi</li>
+        <li>Bethoven</li>
+        <li>Scott
+            <ul>
+                <li>sufre de ataques</li>
+                <li>es tierno y chsitoso</li>
+            </ul>
+        </li>
+        <li>Firu</li>
+
+    </ol>
+</article>
+
+<article>
+    <section>
+
+        <aside>Compra tu curso</aside>
+    </section>
+</article>
+<dl>
+    <dt>colombia</dt>
+    <dd>Bogota</dd>
+    <dt>PEru</dt>
+    <dd>Lima</dd>
+    <dt>Argentina</dt>
+    <dd>Buenos Aires</dd>
+</dl>
+    
+   <!-- <script> pagina()</script> -->
+
+
+   <figure>
+    <pre>
+        <code>
+                function pagina(){
+                    let mensaje = "Mi primera Pagina";
+                    let div = `<div class="container">${mensaje} </div>`
+                        document.body.innerHTML=div
+                    }
+        </code>
+    </pre>
+        <figcaption>Prueba de Figure code y figcaption</figcaption>
+   </figure>
+
+<p>
+    <small>small</small>
+    <strong>strong</strong>
+    <em>em</em>
+    <cite>cite</cite>
+    <dfn>dfn</dfn>
+    <code>code</code>
+    <datagrid>datagrid</datagrid>
+    <br>
+    <q>q</q>
+    <abbr title="abbr">abbr</abbr>
+    <del>del</del>
+    <wbr> word brake wbr
+    <i>i</i>
+    <b>b</b>
+    <u>u</u>
+    <br>
+    <sup>sup</sup>
+    <sub>sub</sub>
+    <time> time</time>
+    <mark>mark</mark>
+    <a href="herf">href</a>
+</p>
+
+</body>
+<footer> Page created with VSC</footer>
+</html>

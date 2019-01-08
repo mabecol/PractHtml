@@ -1,0 +1,36 @@
+.caja {
+    width: 200px;
+    height: 800pxrl;
+      
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:1;
+    margin:auto;
+    background:  url(https://lh3.googleusercontent.com/8qYLBdO1W-hC_RoZxuom-9418UONyGm7wVQd2HUFTEjk-KykkM8onOCGjqHmhSHo1W2wsFnWGnR6jMTTiR288lBBg2sDhMpxv9o6sdBoyMD7mcfEgaG027qCB_MY169bSFimGfBCj4ATQ24pAYP2U7VYo1wA_3l5h0yepwEh_XCn7FMYXswGCEkJ6zAN9Sa30f85ieN-C1wgEhX4EO3UodeS5BzrgQR-A9bJEJMgqWHDTBsKmQlyKdKpvv3NRQ_oJfuZs6tKor8OSXcuSLVQTqxg6dQhR68mhq9G1S4Y_PbpeuLs5oS6cZyA3bKbDEKeHFOlAIB0uXwabbkpE6llHSAliIQlD4sCKgyztyH_OsEdJUrQYDb2L0xb4sUUOM_UokORXK9V4aboD801sumr3mWuY9MXo5cubeViCDkyK2jg9J6WV__gpeO9cHV3nmQV4vCU7lPUUazLXvfII222LrCJ2VlqE71Gd_KFbD-ENjvRBPLDSYM3N4X4eibAd2S8vT3NbTeBfgo5brBWyHRTs7dORW2n3AJ0iha5VCIPsfBUoVrLxZEh4FDk4kcAVKY3M9uUvtJJ2_GcNimb_OJ4rfnRirGXUEoWOFVDwhUtsKm6_r0v32eoQX0cdrS509nDBIco2v-OdKs9a4ZnYTuZds5evg=w371-h618-no);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  /*500px 200px*  o 100%   0 50%/   palabras clave auto cover contain*/
+
+    -webkit-animation: slider 6s infinite alternate;
+  }
+
+  .imagenMascota{
+
+    clip-path: circle(40% at 50% 50%);
+/* https://bennettfeely.com/clippy/ */
+  }
+
+@keyframes slider {
+from{
+    background-position: left center;
+    background-size: 100%;
+}
+to{
+    background-position: right center;
+    background-size: 180%;
+}
+
+}
